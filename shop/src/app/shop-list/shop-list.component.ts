@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShopListComponent implements OnInit {
 
+  items = [
+    {name: 'carrot',
+  price: 1.99},
+    {name: 'apple',
+  price: 2.99}
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
